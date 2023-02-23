@@ -51,18 +51,20 @@ header .title{
     right:10px;
     top:130px;
     width: 250px;
-    
+    height:150px;
     text-align: justify;
     border: solid;    
     display: none;
     padding:10px 0;
     z-index: 2;
     border-color: #ffffff;
+    /* margin:40px; */
     
 }
 .menu-items div{
-    font-size: 18px;
-    padding: 7px;
+    font-size: 16px;
+    /* padding: 7px; */
+    margin:15px;
     padding-left: 20px;
     font-weight: 700;
 }
@@ -94,25 +96,28 @@ header .title{
 }
 img{
     width: 100%;
-    /* max-width: 130px; */
-    max-height: 200px;
+    /* max-width: 100px; */
+    /* height: 200px; */
     padding-top: 30px;;
 }
+.image-block img{
+    height: 240px;
+}
 .card-name{
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 300;
     padding-top: 10px;
     color:#ffffff;
 }
 .price{
-    font-size:22px;
+    font-size:20px;
     font-weight:300;
     padding: 3px 0 10px 0;
     color: #aaaaaa;
 }
 button{
     padding:10px 14px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     color: #aaaaaa;
     border-width: 1px;
@@ -160,4 +165,5 @@ footer{
  font-size: 25px;
  color: #ffffff;
  padding: 30px;
+ font-weight: 700;
 }
