@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-img{
+    background-image: url("../images/background1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height:100vh;
+    width: 100vw;
+}
+
+.airplane img{
+    width: 100%;
+}
+.airplane{
+    width:400px;
+    height:400px;
+    position: absolute;
+    right: 800px;
+    width:100px;  
+    top:0px;
+    animation: airplane-animation 10s linear 1s infinite
+}
+
+
+
+@keyframes airplane-animation{
+    0%   {width:100px;  top:0px;  right: 800px;}
+    25%  {width:300px;  top:200px;right: 700px;}
+    50%  {width:500px;  top:400px;right: 600px;}
+    75%  {width:700px;  top:600px;right: 500px;}
+    100% {width:900px;  top:800px;right: 400px;}
+
+}
+
+
