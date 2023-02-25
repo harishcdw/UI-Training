@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+header {
+    background-color: #145f94;
+    text-align: center;
+    padding: 1.8%;
+    color: white;
+    font-size:20px;
+    font-weight:500;  
+}
+
+.outer {
+    width: 82%;
+    margin: auto;
+    padding-top: 1.24%;
+}
+
+
+.left-col {
+    width: 62%;
+    float: left;
+}
+
+.right-col {
+    width: 38%;
+    float: right;
+}
+
+
+.row {
+    margin: 16px 8px;
+    border-style: solid;
+    border-color:hsl(205deg 76% 33%);
+}
+.title-bg{
+    background-color: hsl(205deg 76% 33%);
+}
+
+.card-title {
+    
+    padding: 17px 25px;
+    color: white;
+    font-size: 19px;
+    font-weight:600;
+    
+}
+
+.card-content{
+    padding: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size:17px;
+    background-color:  hsl(0deg 0% 96%);
+}
