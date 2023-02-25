@@ -1,0 +1,111 @@
+/* assignment8 */
+
+*{
+    margin:0;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    
+}
+.wrapper-container{
+    background-image: url("../images/background-image.png");
+    background-size: 1730px;
+    background-repeat: no-repeat;
+    height:100vh;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+}
+
+/* title */
+.title-bar{
+    position: relative;
+}
+
+
+/* menu contaner */
+.menu-logo{
+    position: absolute;
+    background-color: black;
+    height: 100px;
+    width:100px;
+    
+}
+.menu-logo i{
+    font-size: 30px;
+    margin:30px 10px;
+}
+
+
+.menu-list {
+  
+    background-color: black;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 20px;
+    width:250px;
+    margin: -400px;
+    transition: all 2s;
+
+}
+  
+.menu-logo:hover .menu-list{ 
+    margin:0px;
+}
+
+.menu-items{
+    margin: 20px;
+    font-size: 19px;
+}
+
+.menu-items:hover{
+    background-color: grey;
+
+    
+}
+.menu-items,.menu-logo i{
+    cursor: pointer;
+  }
+
+
+.title{
+    font-size:90px;
+    font-weight: 900;  
+    margin: 50px;
+}
+.evoled{
+    position: absolute;
+    right: -140px;
+    transform:rotate(-90deg);
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+.evoled span{
+    font-size: 150px;
+}
+
+/* slogan bar */
+.slogan{
+    font-size: 130px;
+    font-weight: 700;
+    width:50%;
+    margin: 25% auto 0%;
+}
+.slogan span{
+    font-size: 170px;
+}
+
+/* icon container */
+.icon-container{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    right:10px;
+    bottom: 10px;
+    
+}
+.icon-container i{
+    font-size: 40px;
+    margin: 10px;
+}
+
