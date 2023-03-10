@@ -1,0 +1,208 @@
+
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #030202;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.wrapper{
+    height:100vh;
+}
+
+
+/* header styles */
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content : space-between;
+    color: #000000;
+    background-color: #a8e187; 
+    width:100%;
+    font-size: 20px;
+    font-weight:700;
+    
+}
+.header-container div{
+    margin: 20px;
+    text-transform: uppercase;
+}
+/* page1 styles==>(shape selecting page styles) */
+
+.main-content{
+    margin: 16% 0;
+}
+
+.title,.input{
+    color: #ffffff;
+    font-size: 55px;
+    text-align: center;
+    margin: 20px;
+}
+
+.title-img{
+    text-align: center;
+}
+
+.shapes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:42%;
+    margin: auto;
+}
+
+
+.circle{
+   
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    width:160px;
+    height: 160px;
+    background-color: #00987d;
+    margin: 20px;
+    cursor: pointer;
+}
+.triangle {
+    
+    position: relative;
+	width: 0;
+	height: 0;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	border-bottom: 160px solid #ffabdc;  
+    margin: 20px;
+    cursor: pointer;
+}
+.square{
+    
+    position: relative;
+    width:160px;
+    height:160px;
+    background-color: #e0e0e0;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.circle i,.square i{
+    
+    position: absolute;
+    color: white;
+    font-size: 60px;   
+    top:50px;
+    right:50px;  
+    display:none;
+    cursor: pointer;
+}
+.triangle i{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    top:75px;
+    right:-30px;
+    display:none;
+    cursor: pointer;
+    
+}
+
+
+/* page-2 ==> (value entering page styles) */
+.page-2{
+    display: none;
+}
+
+.input input{
+    height: 80px;
+    width:650px;
+    background-color: #000000;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-size: 30px;
+    border: solid;
+}
+#nextButton button{
+    display: none;
+    border: solid;
+    text-transform: uppercase;
+}
+
+.calculateButton button{
+    text-transform: uppercase;
+}
+
+
+
+#nextButton,.calculateButton,.startAgain{
+    text-align: center;
+    margin: 50px;
+    /* text-transform: uppercase; */
+    
+}
+
+
+
+#nextButton button, .calculateButton button, .startAgain button{
+    font-size: 25px;
+    margin: 0 80px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+    padding: 15px 80px;
+    background-color: #000000;
+    color: #ffffff;  
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+
+/* page-3 ==> (output page styles) */
+
+.page-3{
+    display:none;
+}
+
+.page-3 .main-content{
+    margin: 10% 0;
+} 
+
+.page-3 .title{
+    margin: 10px;
+}
+
+table{
+    width: 28%;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0 17px;
+}
+table td{
+    padding: 13px;
+}
+.function,.formula,.result{
+    font-size: 20px;
+    color: white; 
+}
+
+.function{
+    width: 38%;
+    background-color: #0e62d6;  
+    text-transform: uppercase;
+}
+.formula{
+    width:23%;
+    background-color: #455e7f;
+}
+.result{
+    width: 25%;
+    background-color: #0e62d6;
+}
+
+
+
