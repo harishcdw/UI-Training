@@ -1,0 +1,226 @@
+/* assignment19 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}
+
+/* header styles */
+header {
+  margin: 60px 0;
+}
+header .email {
+  color: #ffffff;
+}
+header .title-name {
+  color: #ffffff;
+  font-size: 160px;
+  font-weight: 100;
+}
+header .title-name span {
+  font-weight: 600;
+}
+header .title-desc {
+  color: #cecece;
+  font-size: 55px;
+  margin-bottom: 230px;
+}
+header .title-desc span {
+  color: #4a91e3;
+}
+header .mobile-view {
+  display: none;
+}
+
+.lap-view {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 900;
+  margin: 10px 130px 100px;
+}
+
+/* image-container styles */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+  margin: 40px auto;
+}
+.flex-container div {
+  width: 480px;
+  margin: 18px 5px;
+}
+.flex-container div img {
+  width: 100%;
+}
+
+/* slogan styles */
+.slogan {
+  font-size: 50px;
+  color: #cecece;
+  padding: 20px 0;
+  font-weight: 700;
+  margin: 100px 0;
+}
+.slogan span {
+  color: #b8e886;
+}
+
+/* logo-container styles */
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 10px auto;
+}
+.logo-container div {
+  margin: auto;
+  text-align: center;
+}
+.logo-container div img {
+  width: 60%;
+}
+
+img {
+  width: 100%;
+}
+
+/* line-design */
+.line {
+  color: #f0f8ff;
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.line hr {
+  background-color: #f0f8ff;
+  margin: 0 15px;
+}
+
+.first-line {
+  width: 15%;
+}
+
+.second-line {
+  width: 64%;
+}
+
+/* icon-container design */
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 22%;
+  margin: auto;
+}
+.icon-container div {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 50%;
+  border: solid 2px #ffffff;
+  color: #ffffff;
+  margin: auto;
+}
+.icon-container div i {
+  font-size: 30px;
+  margin: 8px 0;
+}
+
+/* footer design */
+footer {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 90px 0 170px;
+}
+
+@media only screen and (max-width: 992px) {
+  body {
+    margin: 0%;
+  }
+  header {
+    margin: 250px 0;
+  }
+  header .title-name {
+    font-size: 100px;
+    margin: 25px 0;
+  }
+  header .title-desc {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  header .lap-view {
+    display: none;
+  }
+  header .mobile-view {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    margin: 15px 0 70px 0;
+  }
+  .flex-container {
+    margin: 30px auto;
+  }
+  .flex-container div {
+    width: 730px;
+    margin: 20px auto;
+  }
+  .slogan {
+    font-size: 68px;
+    width: 89%;
+    margin: 130px auto;
+  }
+  .line {
+    width: 30%;
+    margin: 120px auto 30px;
+  }
+  .logo-container {
+    width: 78%;
+  }
+  .logo-container div {
+    height: 320px;
+    width: 50%;
+  }
+  .logo img {
+    margin: 70px 0;
+    max-width: 70%;
+  }
+  .halfWidth img {
+    margin: 20px 0;
+    max-width: 40%;
+  }
+  .topMargin img {
+    margin-top: 110px;
+  }
+  .larginMargin img {
+    margin-top: 110px;
+  }
+  .icon-container {
+    width: 55%;
+    margin: 90px auto;
+  }
+  .icon-container div {
+    width: 90px;
+    height: 90px;
+  }
+  .icon-container div i {
+    font-size: 60px;
+    margin: 15px 0;
+  }
+  footer {
+    font-size: 20px;
+    margin: 180px 60px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
