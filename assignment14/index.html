@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing Form</title>
+
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <header class="logo">
+        <img src="logo/Sirius_CDW.svg"/> 
+    </header>
+    <div class="form">
+     <!--forms  -->
+        <form>
+
+            <div class="sectionTitle">BILLING DETAILS</div>
+            <div class="nameRow">
+                <div class="fnameCol">
+                    <div>First Name</div>
+                    <div> <input id="fname" type="text" name="fname"/> </div>
+                    <span class="fname-warnings"></span>
+                </div>
+                <div class="lnameCol">
+                    <div>Last Name</div>
+                    <div><input id="lname" type="text" name="lname"/></div>
+                    <span class="lname-warnings"></span>
+                </div>
+            </div>
+            <!-- email -->
+            <div class="emailAddress">
+                <div>Email Address</div>
+                <div> <input id="email" type="text" name="email"/> </div>
+                <span class="email-warnings"></span>
+            </div>
+            <!-- contact number -->
+            <div class="contactNumber">
+                <div>Contact Number</div>
+                <div> <input id="mobile" type="number" name="mobile"/> </div>
+                <span class="mobile-warnings"></span>
+            </div>
+            <!-- pincode -->
+            <div class="PINCode">
+                <div>PIN Code</div>
+                <div> <input id="pinCode" type="number" name="pinCode"/> </div>
+                <span class="pincode-warnings"></span>
+            </div>
+
+            <!-- payment details -->
+
+            <div class="sectionTitle">PAYMENT DETAILS</div>
+            <div class="cardNumber">
+                <div>Card Number</div>
+                <div> <input id="cardNumber" type="number" name="cardNumber"/> </div>
+                <span class="card-Number-warnings"></span>
+            </div>
+
+            <div class="cardDetails">
+                <div class="cardExpiry">
+                    <div>Card Expiry(Year)</div>
+                    <div> <input id="expiry" type="number" name="cardExpiry"/> </div>
+                    <span class="expiry-warnings"></span>
+                </div>
+                <div class="cvv">
+                    <div>CVV</div>
+                    <div><input id="cvv" type="number" name="cvv"/></div>
+                    <span class="cvv-warnings"></span>
+                </div>
+            </div>
+
+            <button id="completeButton"  class="submitButton">COMPLETE PAYMENT</button>
+
+        </form>
+        
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
